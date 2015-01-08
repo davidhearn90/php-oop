@@ -12,7 +12,7 @@ class You{
 
 	}
 
-	$me = new You();
+	$me = new You("bob", "jackson");
 	$me->firstname = "David";
 	$me->lastname = "Hearn";
 
@@ -54,5 +54,31 @@ class chicken{
 
 	print "my name is {$farm->name()}";
 
-	
+	//examples for lecture 2
+
+	class Me{
+
+	public $firstname ="David";
+	public $lastname ="Hearn";
+	public $age = '15'; 
+
+
+			function construct($title, $firstname, $lastname, $breed){
+
+				$this->firstname = $firstname;
+				$this->lastname = $lastname;
+				$this->age = $breed;
+
+			}
+
+		function getName(){
+
+			return "{$this->firstname}" .
+			"{$this->lastname}";
+		}
+
+}
+
+$dog1 = new Dog("BooBoo", "Hearn", "EnglishBulldog");
+print "Dog 1:{$dog1->getName()}";
 	
