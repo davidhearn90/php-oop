@@ -73,12 +73,12 @@ class chicken{
 
 		function getName(){
 
-			return "{$this->firstname}" .
-			"{$this->lastname}";
+			return $this->firstname .
+			$this->lastname;
 		}
 
 }
 
-$dog1 = new Dog("BooBoo", "Hearn", "EnglishBulldog");
-print "Dog 1:{$dog1->getName()}";
+$me1 = new Dog("David", "Hearn", "EnglishBulldog");
+print "Dog 1:"$dog1->getName();
 	
