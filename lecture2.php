@@ -19,8 +19,8 @@ class Me{
 
 		function getName(){
 
-			return "{$this->firstname}" .
-			"{$this->lastname}";
+			return $this->firstname  .
+			 $this->lastname;
 		}
 
 }

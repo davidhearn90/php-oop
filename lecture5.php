@@ -18,8 +18,8 @@ class Sport {
 
 	function getSport(){
 
-		return "I play" . $this->name .
-		"and i am from" . $this->country;
+		return "I play "  .  $this->name .
+		 "and i am from "  . $this->country;
 	}
 }
 
@@ -79,8 +79,8 @@ class Game {
 
 	function getGame(){
 
-		return "I play" . $this->name .
-		"and i am from" . $this->country;
+		return " I play " . $this->name .
+		 " and i am from " . $this->country;
 	}
 }
 
@@ -140,8 +140,8 @@ class School {
 
 	function getSchool(){
 
-		return "I go to" . $this->name .
-		"and i am from" . $this->country;
+		return " I go to " .  $this->name .
+		" and i am from " . $this->country;
 	}
 }
 
