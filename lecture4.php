@@ -2,12 +2,12 @@
 
 class Pet {
 
-	public $name = "Sam";
-	public $owner ="David";
-	public $gender = "boy";
-	public $weight = 12;
-	public $hamster = "hamster";
-	public $snake = "snake";
+	public $name ;
+	public $owner ;
+	public $gender ;
+	public $weight ;
+	public $hamster ;
+	public $snake ;
 	
 
 	function __construct($name, $owner, $gender, $weight, $hamster, $snake){
@@ -52,16 +52,16 @@ class Hamster extends Pet{
 }
 
 $snake1 = new Snake("Sam", "Boy", 12, "David", "snake", "hamster");
-print "I have a" . $snake1->getName();
+print "I have a "  . $snake1->getName();
 
 //example 2
 
 class sport {
 
-	public $football = "Football";
-	public $soccer= "Soccer";
-	public $gender = "neutral";
-	public $country = "country";
+	public $football;
+	public $soccer ;
+	public $gender ;
+	public $country ;
 	
 	
 
@@ -104,15 +104,15 @@ class Football extends sport{
 }
 
 $football1 = new Football("Football", "Soccer", "country", "neutral");
-print "I play" . $football1->getSport();
+print " I play "  . $football1->getSport();
 
 //example 3
 class Music {
 
-	public $classical ="classical";
-	public $rock = "rock";
-	public $rap = "rap";
-	public $electro = "electro";
+	public $classical;
+	public $rock ;
+	public $rap ;
+	public $electro;
 	
 
 	function __construct($classical, $rock, $rap, $electro){
@@ -155,4 +155,4 @@ class Classical extends Music{
 }
 
 $music1 = new Music("classical", "rock", "rap", "electro");
-print "I listen to" . $music1->getMusic();
+print " I listen to " .  $music1->getMusic();
