@@ -51,7 +51,7 @@ class Hamster extends Pet{
 	}
 }
 
-$snake1 = new Snake("Sam", "Boy", 12, "David", "snake", "hamster");
+$snake1 = new Snake(" Sam ", " Boy ", 12, " David ", " snake ", " hamster ");
 print "I have a "  . $snake1->getName();
 
 //example 2
@@ -103,7 +103,7 @@ class Football extends sport{
 	}
 }
 
-$football1 = new Football("Football", "Soccer", "country", "neutral");
+$football1 = new Football(" Football ", " Soccer ", " country ", " neutral ");
 print " I play "  . $football1->getSport();
 
 //example 3
@@ -154,5 +154,5 @@ class Classical extends Music{
 	}
 }
 
-$music1 = new Music("classical", "rock", "rap", "electro");
+$music1 = new Music(" classical ", " rock ", " rap ", " electro ");
 print " I listen to " .  $music1->getMusic();

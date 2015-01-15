@@ -53,7 +53,7 @@ print "Who:{$me1->getName()}";
 
 }
 
-$cat1 = new Me("David", "Hearn", "Lion");
+$cat1 = new Me(" David ", " Hearn ", " Lion ");
 print "Cat1:{$cat1->getName()}";
 	
 
@@ -82,6 +82,6 @@ print "Cat1:{$cat1->getName()}";
 
 }
 
-$fruit1 = new Fruit("Apple", "Red and Yellow", "3");
+$fruit1 = new Fruit(" Apple ", " Red and Yellow ", " 3 ");
 print "What:{$fruit1->getType()}";
 	
